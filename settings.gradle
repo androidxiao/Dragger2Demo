@@ -1,0 +1,5 @@
+include ':app'
+include ':commonlibrary'
+include ':simplexrecyclerview'
+include ':popmenu'
+include ':FlycoTabLayout_Lib'

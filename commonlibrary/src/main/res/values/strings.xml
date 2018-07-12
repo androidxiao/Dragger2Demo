@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CommmonLibrary</string>
+    <string name="send_code_msg">获取验证码</string>
+    <string name="get_code_msg_again">重新获取</string>
+</resources>

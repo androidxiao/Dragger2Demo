@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+
+//版本信息配置
+def config = rootProject.ext.android
+//依赖信息配置
+def librarys = rootProject.ext.dependencies
+
+android {
+
+    compileSdkVersion config.compileSdkVersion
+
+    defaultConfig {
+        applicationId "com.dragger2.demo"
+        minSdkVersion config.minSdkVersion
+        targetSdkVersion config.targetSdkVersion
+        versionCode config.versionCode
+        versionName config.versionName
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':commonlibrary')
+    implementation project(':simplexrecyclerview')
+    implementation project(':popmenu')
+    implementation project(':FlycoTabLayout_Lib')
+    implementation librarys.design
+    implementation librarys.supportV4
+//    implementation librarys.supportV7
+    implementation librarys.cardview
+    implementation librarys.recyclerview
+    implementation librarys.constraintlayout
+    implementation librarys.dagger2
+    annotationProcessor librarys.daggerPorcessor
+    // 服务端可能需要保持请求是同一个cookie
+    implementation librarys.okhttpUrlConnection
+    implementation librarys.smoothprogressbar
+    implementation librarys.multitype
+    // 如果不想继承SupportActivity/Fragment，自己定制Support，可仅依赖:
+//    implementation librarys.fragmentationCore
+    //包含了SupportActivity/Fragment
+//    implementation librarys.fragmentation
+}

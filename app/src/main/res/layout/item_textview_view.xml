@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout-->
+<!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:rtv="http://schemas.android.com/apk/res-auto"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="60dp"-->
+<!--android:orientation="vertical">-->
+
+<!---->
+
+
+<!--</LinearLayout>-->
+
+
+<com.commmonlibrary.cn.widget.ShapeViewGroup
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rtv="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id_shape_vg"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    rtv:background_normal="@color/colorAccent"
+    rtv:background_pressed="@color/colorPrimaryDark"
+    rtv:corner_radius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/id_tv_test"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            tools:text="测试"
+            />
+
+        <com.commmonlibrary.cn.widget.RTextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center_vertical"
+            android:background="#fff"
+            android:paddingLeft="16dp"
+            rtv:text_color_normal="#000"
+            rtv:text_color_pressed="#c0c0"
+            android:text="测试1111"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:background="#000"/>
+    <!--android:background="#a3a3a3"-->
+</com.commmonlibrary.cn.widget.ShapeViewGroup>

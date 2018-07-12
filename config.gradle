@@ -1,0 +1,77 @@
+ext {
+
+    //系统配置
+    android = [
+            compileSdkVersion: 27,
+            buildToolsVersion: "27.0.0",
+            minSdkVersion    : 16,
+            targetSdkVersion : 22,
+            versionCode      : 1,
+            versionName      : "1.0.0",
+            supportLibVersion: "27.0.0",
+            constraintLayout : "1.1.1",
+            multidex         : "1.0.1"
+    ]
+
+    //    CookieManager cookieManager = new CookieManager();
+    //    cookieManager.setCookiePolicy(CookiePolicy.ACCEPT_ALL);
+    //    builder.cookieJar(new JavaNetCookieJar(cookieManager));
+    threePart = [
+            glide                 : "4.6.1",
+            okhttp3               : "3.10.0",
+            okhttp3Log            : "3.10.0",
+            //服务端可能需要保持请求是同一个cookie
+            okhttpUrlConnection   : "3.10.0",
+            gson                  : "2.8.1",
+            rx2Android            : "2.0.2",
+            rxjava2               : "2.1.14",
+            retrofit2             : "2.4.0",
+            retrofit2ConverterGson: "2.4.0",
+            //支持rxjava到rxjava2.xx
+            retrofit2Adapter      : "1.0.0",
+            bannerVeiw            : "2.0.5",
+            rxBus                 : "1.0.0",
+            rxRoom                : "1.0.0",
+            mvc                   : "0.0.2",
+            dagger2               : "2.16",
+            daggerPorcessor       : "2.16",
+            fragmentation         : "1.3.5",
+            fragmentationCore     : "1.3.5",
+            glide                 : "4.7.1",
+            glideCompiler         : "4.7.1",
+            smoothprogressbar     : "1.3.0",
+            multitype             : "3.4.4"
+    ]
+
+    dependencies = [
+            design                : "com.android.support:design:${android.supportLibVersion}",
+            supportV4             : "com.android.support:support-v4:${android.supportLibVersion}",
+            supportV7             : "com.android.support:appcompat-v7:${android.supportLibVersion}",
+            cardview              : "com.android.support:cardview-v7:${android.supportLibVersion}",
+            recyclerview          : "com.android.support:recyclerview-v7:${android.supportLibVersion}",
+            constraintlayout      : "com.android.support.constraint:constraint-layout:${android.constraintLayout}",
+            multidex              : "com.android.support:multidex:${android.multidex}",
+            glide                 : "com.github.bumptech.glide:glide:${threePart.glide}",
+            okhttp3               : "com.squareup.okhttp3:okhttp:${threePart.okhttp3}",
+            okhttp3Log            : "com.squareup.okhttp3:logging-interceptor:${threePart.okhttp3Log}",
+            okhttpUrlConnection   : "com.squareup.okhttp3:okhttp-urlconnection:${threePart.okhttpUrlConnection}",
+            gson                  : "com.google.code.gson:gson:${threePart.gson}",
+            rxjava2               : "io.reactivex.rxjava2:rxjava:${threePart.rxjava2}",
+            rx2Android            : "io.reactivex.rxjava2:rxandroid:${threePart.rx2Android}",
+            retrofit2             : "com.squareup.retrofit2:retrofit:${threePart.retrofit2}",
+            retrofit2ConverterGson: "com.squareup.retrofit2:converter-gson:${threePart.retrofit2ConverterGson}",
+            retrofit2Adapter      : "com.jakewharton.retrofit:retrofit2-rxjava2-adapter:${threePart.retrofit2Adapter}",
+            bannerView            : "com.bigkoo:convenientbanner:${threePart.bannerVeiw}",
+            rxBus                 : "com.mindorks.nybus:nybus-android:${threePart.rxBus}",
+            rxRoom                : "android.arch.persistence.room:rxjava2:${threePart.rxRoom}",
+            dagger2               : "com.google.dagger:dagger:${threePart.dagger2}",
+            daggerPorcessor       : "com.google.dagger:dagger-compiler:${threePart.daggerPorcessor}",
+            fragmentationCore     : "me.yokeyword:fragmentation-core:${threePart.fragmentationCore}",
+            fragmentation         : "me.yokeyword:fragmentation:${threePart.fragmentation}",
+            glide                 : "com.github.bumptech.glide:glide:${threePart.glide}",
+            glideCompiler         : "com.github.bumptech.glide:compiler:${threePart.glideCompiler}",
+            smoothprogressbar     : "com.github.castorflex.smoothprogressbar:library-circular:${threePart.smoothprogressbar}",
+            multitype             : "me.drakeet.multitype:multitype:${threePart.multitype}"
+    ]
+
+}

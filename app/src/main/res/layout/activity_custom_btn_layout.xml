@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <com.commmonlibrary.cn.widget.RoundBtn
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="自定义：不可点击"
+        android:textColor="#fff"
+        app:isEnable="false"
+        />
+
+    <com.commmonlibrary.cn.widget.RoundBtn
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="自定义：边框颜色"
+        android:textColor="#fff"
+        app:edgeColor="#d71345"
+        app:edgeWidth="1"
+        />
+
+    <com.commmonlibrary.cn.widget.RoundBtn
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="自定义：圆角"
+        android:textColor="#fff"
+        app:roundRadius="20"
+        />
+
+    <com.commmonlibrary.cn.widget.RoundBtn
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="自定义：normalColor、pressColor"
+        android:textColor="#fff"
+        app:bgPressColor="#c0c0"
+        app:edgeColor="#d71345"
+        />
+
+
+    <com.commmonlibrary.cn.widget.RoundBtn
+        android:id="@+id/id_round_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="自定义：边框颜色、宽度、圆角、可点击、normalColor、pressColor"
+        android:textColor="#fff"
+        app:bgPressColor="#c0c0"
+        app:edgeColor="#d71345"
+        app:edgeWidth="2"
+        app:isEnable="true"
+        app:roundRadius="40"/>
+
+    <com.commmonlibrary.cn.widget.CountDownBtn
+        android:id="@+id/id_count_down_btn"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="获取验证码"
+        android:textColor="#fff"
+        app:countTime="6"
+        app:isEnable="true"
+        app:roundRadius="20"/>
+
+
+</LinearLayout>

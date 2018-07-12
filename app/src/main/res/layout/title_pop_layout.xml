@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+
+    <me.kareluo.ui.PopLayout
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@color/color_title_background"
+        app:bulgeSize="5dp"
+        app:radiusSize="2dp"
+        app:offsetSize="100dp"
+        app:siteMode="left">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/title_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            app:layoutManager="LinearLayoutManager"
+            />
+    </me.kareluo.ui.PopLayout>
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Dragger2Demo.iml" filepath="$PROJECT_DIR$/Dragger2Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FlycoTabLayout_Lib/FlycoTabLayout_Lib.iml" filepath="$PROJECT_DIR$/FlycoTabLayout_Lib/FlycoTabLayout_Lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commonlibrary/commmonlibrary.iml" filepath="$PROJECT_DIR$/commonlibrary/commmonlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commonlibrary/commonlibrary.iml" filepath="$PROJECT_DIR$/commonlibrary/commonlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/popmenu/popmenu.iml" filepath="$PROJECT_DIR$/popmenu/popmenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simplexrecyclerview/simplexrecyclerview.iml" filepath="$PROJECT_DIR$/simplexrecyclerview/simplexrecyclerview.iml" />
+    </modules>
+  </component>
+</project>

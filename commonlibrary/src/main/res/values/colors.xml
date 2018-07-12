@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--btn unEnable-->
+    <color name="light_blue_color">#3c4b7d</color>
+    <!--btn enable-->
+    <color name="blue_color">#635ae7</color>
+    <!--btn press-->
+    <color name="more_blue_color">#4239ae</color>
+    <color name="c_title_text">#d9d6fc</color>
+    <color name="round_rect_bg">#cc000000</color>
+    <color name="c_normal_dot">#7ffffdf8</color>
+    <color name="c_focus_dot">#fffdf8</color>
+</resources>

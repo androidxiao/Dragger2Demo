@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/pop_press_selector"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+    <TextView
+        android:id="@+id/id_tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:drawableLeft="@mipmap/ic_short_line_share"
+        android:gravity="center_vertical"
+        android:textColor="@color/c_title_text"
+        android:textSize="12sp"
+        android:drawablePadding="15dp"
+        android:layout_marginLeft="15dp"
+        tools:text="分享"/>
+
+    <View
+        android:id="@+id/id_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#5a5ab4"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:rtv="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.commmonlibrary.cn.widget.RTextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="常用四周圆角"
+        android:textColor="@android:color/white"
+        rtv:background_normal="@color/colorAccent"
+        rtv:corner_radius="10dp" />
+
+    <com.commmonlibrary.cn.widget.ShapeViewGroup
+        android:id="@+id/id_shape_vg"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        rtv:background_normal="@color/colorAccent"
+        rtv:background_pressed="@color/colorPrimaryDark"
+        rtv:corner_radius="10dp" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="我是圆角"/>
+    </com.commmonlibrary.cn.widget.ShapeViewGroup>
+</LinearLayout>
